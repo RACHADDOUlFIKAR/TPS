@@ -9,6 +9,6 @@ int main()
 {
 	std::cout << avg(12, 12) << std::endl;
 	std::cout << avg(12.00, 12.50);
-	//on a geré le changement de type par la notion template
+	//on a geré le changement de type par la notion template type
 
 }
