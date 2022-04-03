@@ -2,7 +2,7 @@
 #include <iostream>
 template<class r>
 r avg(r a, r b) {
-	r res = (a + b)/2;
+	r res = (a + b) / 2;
 	return res;
 }
 int main()
@@ -12,4 +12,3 @@ int main()
 	//on a geré le changement de type par la notion template
 
 }
-
