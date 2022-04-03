@@ -7,8 +7,8 @@ r avg(r a, r b) {
 }
 int main()
 {
-	std::cout << avg(12, 12) << std::endl;
-	std::cout << avg(12.00, 12.50);
+	std::cout << avg(12, 12) << std::endl; // 12
+	std::cout << avg(12.00, 12.50); // 12,25
 	//on a geré le changement de type par la notion template type
 
 }
